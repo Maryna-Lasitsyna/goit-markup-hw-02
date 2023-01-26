@@ -1,0 +1,246 @@
+/* цвет основного текста NAVY BLUE #2E2F42 */
+/* вторичный цвет текста #434455 */
+/* лого цвет Web #4D5AE5, цвет Studio #2E2F42 */
+/* кнопка Order Service #FFFFFF */
+/* акцент #4D5AE5 */
+/* вторичный цвет фона #F4F4FD */
+
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+}
+/* .list {
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+} */
+
+body {
+  font-family: 'Roboto Medium', sans-serif;
+  color: var(--primary-text-color);
+  background-color: #fff;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text-color);
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+/*----------------- HEADER --------------- */
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.web {
+  color: var(--accent-color);
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.address-list {
+}
+
+.header-mailto {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.header-mailto:hover,
+.header-mailto:focus {
+  color: var(--accent-color);
+}
+
+.header-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+/*----------------- HERO --------------- */
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #404bbf;
+}
+/*----------------- FEATURES --------------- */
+.features {
+}
+.feature-title {
+}
+.feature-list {
+}
+.feature-item {
+}
+.feature-text {
+}
+/*----------------- ACTIONS --------------- */
+.action {
+}
+.action-title {
+}
+.action-list {
+}
+.action-item {
+}
+/*-----------------TEAM --------------- */
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-text {
+}
+/*-----------------FOOTER--------------- */
+
+.footer {
+  background: var(--title-text-color);
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.web {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+.footer-text {
+  color: #e7e9fc;
+}
+
+/*----------------- PORTFOLIO --------------- */
+.filter {
+}
+.filter-list {
+}
+.filter-item {
+}
+
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background: #f4f4fd;
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
+/*----------------- EXAMPLES -------------- */
+.card {
+}
+.card-list {
+}
+.card-item {
+}
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2px;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
