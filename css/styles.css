@@ -8,7 +8,7 @@
   --hero-button-color: #ffffff;
   --hero-background-color: #2e2f42;
   --team-background: #f4f4fd;
-  --team-item-background: #f4f4fd;
+  --team-item-background: #ffffff;
   --footer-logo-color: #f4f4fd;
   --footer-text-color: #e7e9fc;
   --filter-btn-coolor: #f4f4fd;
@@ -17,6 +17,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
+  background: #ffffff;
 }
 .list {
   list-style: none;
@@ -84,6 +85,7 @@ body {
 .header-mailto {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 .header-mailto:hover,
 .header-mailto:focus {
@@ -93,6 +95,7 @@ body {
 .header-tel {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 .header-tel:hover,
 .header-tel:focus {
@@ -216,6 +219,7 @@ body {
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--accent-color);
